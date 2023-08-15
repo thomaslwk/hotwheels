@@ -101,7 +101,7 @@
             <!-- ================== -->
             <!-- Right front wheel -->
             <link name='right_front_wheel'>
-                <pose relative_to="chassis">0.3 -0.15 -0.347 -1.5707 0 0</pose>                
+                <pose relative_to="chassis">0.3 -0.15 -0.347 -1.5707 0 0</pose>
                 <inertial>
                     <mass>1</mass>
                     <inertia>
@@ -129,8 +129,8 @@
                 <collision name='collision'>
                     <geometry>
                         <cylinder>
-                            <radius>0.4</radius>
-                            <length>0.2</length>
+                            <radius>0.04</radius>
+                            <length>0.02</length>
                         </cylinder>
                     </geometry>
                 </collision>
@@ -165,8 +165,8 @@
                 <collision name='collision'>
                     <geometry>
                         <cylinder>
-                            <radius>0.4</radius>
-                            <length>0.2</length>
+                            <radius>0.04</radius>
+                            <length>0.02</length>
                         </cylinder>
                     </geometry>
                 </collision>
@@ -177,7 +177,7 @@
             <!-- ================= -->
             <!-- Right back wheel -->
             <link name='right_back_wheel'>
-                <pose relative_to="chassis">0.1 -0.15 -0.347 -1.5707 0 0</pose>                
+                <pose relative_to="chassis">0.1 -0.15 -0.347 -1.5707 0 0</pose>
                 <inertial>
                     <mass>1</mass>
                     <inertia>
@@ -205,8 +205,8 @@
                 <collision name='collision'>
                     <geometry>
                         <cylinder>
-                            <radius>0.4</radius>
-                            <length>0.2</length>
+                            <radius>0.04</radius>
+                            <length>0.02</length>
                         </cylinder>
                     </geometry>
                 </collision>
@@ -241,8 +241,8 @@
                 <collision name='collision'>
                     <geometry>
                         <cylinder>
-                            <radius>0.4</radius>
-                            <length>0.2</length>
+                            <radius>0.04</radius>
+                            <length>0.02</length>
                         </cylinder>
                     </geometry>
                 </collision>
